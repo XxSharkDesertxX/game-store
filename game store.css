@@ -1,0 +1,105 @@
+
+        body{
+            background-image: url("farcry_primal.jpg") ; 
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        .box{
+            background-color: rgba(85, 85, 85, 0.5);
+        }
+        .change-darp:hover{
+            transition: all 0.2s ease-in 0.2s ;
+            transform: scale(0.9);
+        }
+        .change-item-darop{
+            color: gray;
+        }
+        th{
+          color: white;
+        }
+        .imgeboxtable{
+          width: 200px;
+          height: 80px;
+          margin: 10px;
+          box-sizing: border-box;
+          transition: all 0.2s ease-in-out 0.1s;
+        }
+        .imgeboxtable:hover{
+          border-radius: 10px;
+          transform: scale(0.9);
+          background-color: white;
+          position: relative;
+        }
+        .imgetable:hover{
+          width: 210px;
+        }
+        .buttonmove{
+          transition: all 0.1s ease-in 0.2s;
+        }
+        .buttonmove:hover{
+          transform: scale(0.9);
+          text-shadow: 5px 1px 4px orange;
+          
+        }
+        section{
+          padding: 20px;
+          height: 100%;
+        }
+
+      
+        .test1{
+          width: 100px;
+          height: 70px;
+          border-top: 3px solid orangered;
+          border-left: 3px solid orangered;
+          position: absolute;
+          top: 3px;
+          left: 3px;
+          transition: all 0.1s ease-in 0.1s;
+        }
+    
+        .test{
+          width: 100px;
+          height: 70px;
+          border-bottom: 3px solid orangered;
+          border-right: 3px solid orangered;
+          position: absolute;
+          bottom: 3px;
+          right: 3px;
+          top: 37px;
+        }
+        
+  .cardHover{
+    transition: all 0.3s ease-out 0.2s;
+  }
+  .cardHover:hover{
+    transform: rotate(6deg);
+    color: #0d6efd;
+    
+  }
+  .cardHover2{
+    transition: all 0.3s ease-out 0.2s;
+  }
+  .cardHover2:hover{
+    transform: rotate(6deg);
+    color: #0d6efd;
+  }
+  .cardHover3{
+    transition: all 0.3s ease-out 0.2s;
+  }
+  .cardHover3:hover{
+    transform: rotate(6deg);
+    color: orange;
+  }
+
+.bgoffcan{
+    background-image: url('farcry_primal.jpg');
+    background-position: center;
+  } 
+
+  .homeBox{
+    width: 100%; height: 180px;
+    overflow: scroll;
+  }
